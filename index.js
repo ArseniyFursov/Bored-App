@@ -24,11 +24,11 @@ function renderQuetion() {
 };
 
 function renderMainText() {
-    fetch("https://bored-api.appbrewery.com/random")
+    fetch("https://apis.scrimba.com/bored/api/activity/")
         .then(data => data.json())
         .then((result) => {
-            mainTextNode.innerHTML = `${result}`;
-        })
-        .catch(error => console.log(error));
+            mainTextNode.innerHTML = `${result.activity}`;
+        });
 
 };
+
