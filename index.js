@@ -26,6 +26,9 @@ function renderQuetion() {
 function renderMainText() {
     fetch("https://bored-api.appbrewery.com/random")
         .then(data => data.json())
-        .then(result => console.log(result))
+        .then((result) => {
+            mainTextNode.innerHTML = `${result}`;
+        })
         .catch(error => console.log(error));
+
 };
