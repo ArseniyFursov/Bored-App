@@ -1,5 +1,9 @@
-body{
+.body{
     background: linear-gradient(180.00deg, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.2) 48%);
+}
+
+.body-class{
+    background: linear-gradient(180.00deg, rgba(0, 176.375, 28.220006942749023, 0.2) 24%,rgba(255, 255, 255, 0) 100%);
 }
 
 .main-container{
@@ -8,18 +12,18 @@ body{
     height: 1255px;
 }
 
-.wrapper-quetion{
+.wrapper-question{
     margin: 0 auto;;
     margin-top: 115px;
-    width: 323px;
+    width: 500px;
 }
 
-.quetion{
+.question{
     font-size: 40px;
     font-weight: 700;
     line-height: 100%;
     letter-spacing: 0%;
-    text-align: left;
+    text-align: center;
 }
 
 .main-hobbi{
